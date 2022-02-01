@@ -3,4 +3,4 @@
 <hr>
 
 <h3 align="center">- Projeto portfolio</h3>
-<p>AAAAAAAAAAaaaaaaa<p>
+<p align="center">AAAAAAAAAAaaaaaaa<p>
