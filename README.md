@@ -2,5 +2,5 @@
 
 <hr>
 
-<h3 align="center">- Projeto portfolio</h3>
+<h3 align="center">&bull; Projeto portfolio</h3>
 <p align="center">&rsaquo; Sidebar interativo com transparência</p>
