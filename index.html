@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../reset-meyer.css">
+  <!--box1== width: 100%;-->
+  <style type="text/css">
+    body {
+    	margin:10px;
+    	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+    }
+
+    #box1 {
+    	width: 100%;
+    	height: 170px;
+    	margin: 10px;
+    	padding: 10px;
+      background: #c00;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      margin: 120px auto;
+      word-wrap: break-word;
+      white-space: pre-line;
+      font-family: 'Courier New';
+      border-radius: 5px;
+    }
+
+    h2, p  {
+    	padding: 5px;
+      text-align: center;
+    }
+
+    #box1 p {
+    	white-space: pre;
+    	font-size: smaller;
+    }
+
+    body {
+      background-size: cover;
+      background-attachment: fixed;
+      background-image: url('https://wallpaperaccess.com/full/1098540.jpg');
+      background-repeat: no-repeat;
+      position: fixed;
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      overflow-x: hidden;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 6%;
+      background-color: black;
+      color: LimeGreen;
+      font-size: 170%;
+      font-family: 'Courier New';
+      opacity: 0.9;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  *{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .wrapper .sidebar {
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .wrapper .sidebar .profile {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .wrapper .sidebar .profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .wrapper .sidebar .profile h3 {
+    color: #ffffff;
+    margin: 10px 0 5px;
+  }
+
+  .wrapper .sidebar .profile p {
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+  }
+  .wrapper .sidebar ul li a {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(255, 112, 112);
+    font-size: 16px;
+    position: relative;
+  }
+
+  .wrapper .sidebar ul li a .icon {
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+  }
+
+
+  .wrapper .sidebar ul li a:hover,
+  .wrapper .sidebar ul li a.active {
+    color: #0c7db1;
+
+    background: rgba(15, 98, 176, 0.1);
+    border-right: 6px solid rgb(255, 56, 54);
+  }
+
+  .wrapper .sidebar ul li a:hover .icon,
+  .wrapper .sidebar ul li a.active .icon {
+    color: #0c7db1;
+  }
+
+  .wrapper .sidebar ul li a:hover:before,
+  .wrapper .sidebar ul li a.active:before {
+    display: block;
+  }
+  </style>
+  <title>Teste de site</title>
+</head>
+<body class="active">
+  <!-- Faixa transparente no meio
+  <div id="box1">
+  	<h2>Bem vindo ao meu site,<br> testando transparência com blur na div</h2>
+  </div>
+  -->
+
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="profile">
+        <img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com011.jpg" alt="profile_picture">
+        <h3>Rodrigo</h3>
+        <p>&rsaquo; Pesquisador de Segurança<br>em aplicação Web</p>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#" class="active">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="item">Sobre</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-desktop"></i></span>
+            <span class="item">Contatos</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-user-friends"></i></span>
+            <span class="item">Conhecimento</span>
+          </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+              <span class="item">Sei lá</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+  </div>
+
+  <!-- Marquee
+  <div class="footer">
+    <marquee width="100%" direction="left">
+      Teste marquee palavras que ficam andando igual de notícia
+    </marquee>
+  </div>
+  -->
+</body>
+</html>
