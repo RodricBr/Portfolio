@@ -3,4 +3,4 @@
 <hr>
 
 <h3 align="center">- Projeto portfolio</h3>
-<p align="center">AAAAAAAAAAaaaaaaa<p>
+<p align="center">&rsaquo; Sidebar interativo com transparência</p>
